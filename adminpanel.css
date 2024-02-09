@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bodymain {
+    width: 100%;
+    /* display: inline-flex; */
+}
+
+.admin {
+    width: 20%;
+    height: 700px;
+    background-color: #252b3b;
+    color: #ffffff8f;
+    padding: 20px;
+    font-size: 14px;
+    position: relative;
+}
+
+.panel {
+    width: 20%;
+    height: 60px;
+    background-color: #252b3b;
+    border: 1px solid black;
+    color: #fff;
+    text-align: center;
+}
+
+.dashboard {
+    margin-top: 20px;
+    position: relative;
+}
+
+.dashboard span {
+    margin: 20px 5px;
+
+}
+
+/* .dashboard :last-of-type
+{
+    margin-left: 30px;
+} */
+.fa-3:before {
+    content: "\33";
+    position: absolute;
+    right: 20px;
+    top: -5px;
+    background-color: green;
+    padding: 5px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.one::after {
+    rotate: 90deg;
+    content: ">";
+    position: absolute;
+    right: 20px;
+    font-weight: bold;
+}
+
+.page {
+    margin-top: 20px;
+    font-size: 18px;
+    color: gray;
+}
+
+.com {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+nav {
+    width: 80%;
+    height: 60px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 246px;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partone {
+    display: flex;
+    padding: 17px 0px;
+}
+
+.parttwo {
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.partone {
+    display: flex;
+}
+
+.menutwo {
+    padding: 7px;
+}
+
+.menutwo span {
+    /* padding-left: 10px; */
+}
+
+.search {
+
+    /* padding: 6px 30px; */
+    padding-right: 15px;
+}
+
+.search input {
+    padding: 8px;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: inline-block;
+}
+
+.search span {
+    display: inline-block;
+    padding-right: 30px;
+    position: absolute;
+    left: 65px;
+    top: 25px;
+    margin-bottom: 10px;
+}
+
+.megamenu {
+    padding: 2px;
+    padding-left: -50px;
+}
+
+
+
+.iconone {
+    padding: 17px;
+}
+
+.scan {
+    padding: 17px;
+}
+
+.kevin {
+    padding: 15px;
+}
+
+.notification {
+    padding: 17px;
+}
+
+.setting {
+    padding: 17px;
+}
+
+.sales {
+    width: 80%;
+    height: 700px;
+    background-color: #f1f5f8;
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 246px;
+    top: 63px;
+}
+
+.sales p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.period {
+    background-color: #fff;
+    width: 220px;
+    height: 150px;
+    /* text-align: center; */
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    position: relative;
+}
+
+.period h1 {
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(185, 181, 181);
+    padding-bottom: 5px;
+}
+
+.period span {
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    font-size: 10px;
+    color: skyblue;
+}
+
+.period p {
+    color: gray;
+    font-size: 14px;
+}
+
+.mainperiod {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.safe {
+    height: 400px;
+    width: 72%;
+    background-color: rgb(236, 230, 230);
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.anaswer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.today span {
+    background-color: rgb(228, 220, 220);
+    padding: 5px;
+}
+
+.dashboxsmall {
+    border-radius: 10px;
+    background-color: #fff;
+    /* display: flex; */
+}
+
+.dashboxsmallone {
+    width: 250px;
+    height: 192px;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    left: 711px;
+    top: 44px;
+}
+
+
+.dashboxsmalltwo {
+    width: 240px;
+    height: 240px;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    left: 711px;
+    top: 267px;
+    display: flex;
+}
+
+.phonemain{
+    display: flex;
+    justify-content: space-between;
+}
+.phonemain{
+    font-size: 12px;
+}
+
+#peragraph {
+    background-color: lightgreen;
+
+    border-radius: 5px;
+}
+
+.parentdivone {
+    display: flex;
+    justify-content: space-around;
+}
+
+.parentdivtwo {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.subparentdiv p {
+    font-size: 15px;
+    padding: 4px;
+}
+
+.subparentdiv p::before {
+    content: ".";
+    font-size: 40px;
+    color: #f00;
+}
